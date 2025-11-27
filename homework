@@ -56,9 +56,9 @@
 #         return f"Foydalanuvchi: {self.username}, ismi: {self.fullname}, email: {self.email}"
 #
 #
-# user1 = User("alijon1994", "Alijon Valiev", "alijon1994@gmail.com")
-# user2 = User("dilshod23", "Dilshod Karimov", "dilshod23@mail.ru")
-# user3 = User("madina_01", "Madina Qodirova", "madina01@gmail.com")
+# user1 = User("alijon008", "Alijon Valiev", "alijon008@gmail.com")
+# user2 = User("dilshod008", "Dilshod Karimov", "dilshod008@mail.ru")
+# user3 = User("rasul_01", "Rasul Qodirov", "rasul01@gmail.com")
 #
 # print(user1.get_info())
 # print(user2.get_info())
