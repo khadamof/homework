@@ -27,8 +27,8 @@
 # 
 # 
 # nexia = Avto("Nexia", 2015, 120000, 7000)
-# malibu = Avto("Malibu", 2023, 45000, 18000)
-# tracker = Avto("Tracker", 2022, 30000, 25000)
+# malibu = Avto("Malibu", 2023, 45000, 40000)
+# tracker = Avto("Tracker", 2022, 30000, 3000)
 # 
 # print("avvalgi malumotlo")
 # print(nexia.info(), "\n")
