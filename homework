@@ -1,0 +1,79 @@
+# class Avto:
+#     def __init__(self, model, yil, yurgan_km, narx):
+#         self.model = model
+#         self.yil = yil
+#         self.yurgan_km = yurgan_km
+#         self.narx = narx
+# 
+#     def info(self):
+#         return (f"Model: {self.model}\n"
+#                 f"Yil: {self.yil}\n"
+#                 f"Yurgan masofa: {self.yurgan_km} km\n"
+#                 f"Narx: ${self.narx}")
+# 
+#     def yurish(self, km):
+#         if km < 0:
+#             print("Km manfiy bo‘lishi mumkin emas!")
+#         else:
+#             self.yurgan_km += km
+# 
+#     def chegirma(self, foiz):
+#         if foiz < 0:
+#             print("Chegirma manfiy bo‘lishi mumkin emas!")
+#         else:
+#             self.narx = self.narx * (100 - foiz) / 100
+# 
+# 
+# nexia = Avto("Nexia", 2015, 120000, 7000)
+# malibu = Avto("Malibu", 2023, 45000, 18000)
+# tracker = Avto("Tracker", 2022, 30000, 25000)
+# 
+# print("avvalgi malumotlo")
+# print(nexia.info(), "\n")
+# print(malibu.info(), "\n")
+# print(tracker.info(), "\n")
+# 
+# malibu.yurish(5000)
+# 
+# tracker.chegirma(90)
+# 
+# print("Tozo malumotlo")
+# print(nexia.info(), "\n")
+# print(malibu.info(), "\n")
+# print(tracker.info(), "\n")
+
+#uy ishi
+#1
+# class User:
+#     def __init__(self, username, fullname, email):
+#         self.username = username
+#         self.fullname = fullname
+#         self.email = email
+#
+#     def get_info(self):
+#         return f"Foydalanuvchi: {self.username}, ismi: {self.fullname}, email: {self.email}"
+#
+#
+# user1 = User("alijon1994", "Alijon Valiev", "alijon1994@gmail.com")
+# user2 = User("dilshod23", "Dilshod Karimov", "dilshod23@mail.ru")
+# user3 = User("madina_01", "Madina Qodirova", "madina01@gmail.com")
+#
+# print(user1.get_info())
+# print(user2.get_info())
+# print(user3.get_info())
+
+#2 chi topwiriq
+
+# class User:
+#     def __init__(self, username, fullname, email):
+#         self.username = username
+#         self.fullname = fullname
+#         self.email = email
+#
+#     def get_info(self):
+#         return f"Foydalanuvchi: {self.username}, ismi: {self.fullname}, email: {self.email}"
+#
+#
+# user1 = User("marim2007", "marimov mrimboy", "marimov007@gmail.com")
+#
+# print(user1.get_info())
